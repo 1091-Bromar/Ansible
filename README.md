@@ -1,1 +1,1 @@
-New repository for learning ansible.
+Simple repository for learning ansible.

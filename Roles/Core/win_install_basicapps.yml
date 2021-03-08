@@ -1,0 +1,13 @@
+---
+- name: "install core apps"
+  hosts: windows
+  gather_facts: no
+  tasks:
+    - name: manage chrome
+      win_chocolatey:
+        - name: googlechrome
+        - state: present
+    - name: manage npp
+      win_chocolatey:
+        - name: notepadplusplus
+        - state: present

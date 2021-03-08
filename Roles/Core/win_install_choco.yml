@@ -1,0 +1,11 @@
+---
+- name: "chocolatey"
+  hosts: windows
+  gather_facts: no
+  tasks:
+    - name: install chocolatey
+      win_chocolatey:
+        name:
+          - chocolatey
+          - chocolatey-core.extension
+        state: present
