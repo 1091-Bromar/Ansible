@@ -1,6 +1,5 @@
 ---
 - name: "chocolatey"
-  hosts: windows
   gather_facts: no
   tasks:
     - name: install chocolatey
