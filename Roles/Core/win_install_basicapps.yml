@@ -1,6 +1,5 @@
 ---
 - name: "install core apps"
-  hosts: windows
   gather_facts: no
   tasks:
     - name: manage chrome
